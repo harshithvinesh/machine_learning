@@ -1,0 +1,4 @@
+{
+    "debug.autoExpandLazyVariables": "off",
+    "python.languageServer": "None"
+}
