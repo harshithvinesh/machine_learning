@@ -1,0 +1,108 @@
+<h1 style="
+  font-family: Georgia, serif;
+  font-size: 44px;
+  text-align: center;
+  color: #1f2937;
+  margin: 30px 0 10px 0;
+">
+Machine Learning Notebook
+</h1>
+
+<p style="
+  text-align:center;
+  font-size:16px;
+  color:#6b7280;
+">
+Clean notes • clear logic • zero fluff
+</p>
+
+
+<h2 style="
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  color: #111827;
+  border-bottom: 3px solid #e5e7eb;
+  padding-bottom: 6px;
+  margin-top: 40px;
+">
+1. Data Preprocessing
+</h2>
+
+
+<h3 style="
+  font-size: 20px;
+  color: #1e40af;
+  margin-top: 25px;
+">
+Handling Missing Values
+</h3>
+
+
+<p style="
+  font-size: 17px;
+  line-height: 1.8;
+  color: #374151;
+  margin: 12px 0;
+">
+Missing values can distort model performance if ignored. The strategy
+depends on data distribution, feature importance, and model choice.
+</p>
+
+
+<div style="
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  margin: 20px 0;
+">
+  <h4 style="margin-top:0; color:#111827;">Key Concept</h4>
+  <p style="margin-bottom:0;">
+    Feature scaling ensures that no single feature dominates learning.
+  </p>
+</div>
+
+
+<div style="
+  background: #fff7ed;
+  border-left: 6px solid #f97316;
+  padding: 16px;
+  border-radius: 8px;
+  margin: 20px 0;
+">
+  <strong>⚠️ Warning:</strong>
+  Never fit scalers on test data — that’s data leakage.
+</div>
+
+
+<div style="
+  background: #ecfdf5;
+  border-left: 6px solid #10b981;
+  padding: 16px;
+  border-radius: 8px;
+  margin: 20px 0;
+">
+  <strong>✅ Result:</strong>
+  Model accuracy improved after normalization.
+</div>
+
+
+<div style="
+  background: #0f172a;
+  color: #e5e7eb;
+  padding: 18px;
+  border-radius: 10px;
+  margin: 20px 0;
+  font-family: monospace;
+">
+<b>Why this code exists:</b><br>
+We standardize features to improve gradient convergence.
+</div>
+
+
+<hr style="
+  bordfer: none;
+  height: 2px;
+  background: linear-gradient(to right, #e5e7eb, #9ca3af, #e5e7eb);
+  margin: 40px 0;
+">
